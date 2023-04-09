@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS</title>
+    <style>
+        .form-container{
+            padding: 20px;
+            
+            background-color: blueviolet;
+            
+        }
+       body{
+        background-color: antiquewhite;
+       }
+       h1{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+    </style>
+</head>
+
+<body>
+    <h1>Students Registration</h1>
+    <form method="post">
+        <div class="form-container">
+            <div>
+                <h3>First Name</h3>
+                <input type="text" name="firstname">
+            </div>
+            <div id="last">
+                <h3>LastName</h3>
+                <input type="text" name="lastname">
+            </div>
+            <div>
+                <h3>Emial</h3>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <h3>Gender</h3>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+            </div>
+            <div>
+                <h3>Phone Number</h3>
+                <input type="text" name="phone">
+            </div>
+            <div>
+                <h3>Age</h3>
+                <input type="date" name="dob">
+            </div>
+            <div>
+                <h3>Password</h3>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <h3>Confirm Password</h3>
+                <input type="password" name="cpassword">
+            </div><br>
+            <input type="reset" name="reset">
+            <input type="submit" name="submit">
+    </form>
+    </div>
+</body>
+
+</html>
